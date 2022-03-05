@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+#bgimg{
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1000;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    filter: brightness(50%);
+    background-repeat: repeat;
+}
+#nav{
+
+}
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+#nav ul li{
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+#nav ul li span{
+    color: chocolate;
+}
+#inputs{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 250px;
+    /* border-style: solid; */
+    
+}
+
+#texts{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 30%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    width: 40%;
+    height: 50%;
+    color: chocolate;
+    margin: 10px;
+}
+#btn{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 48%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    color: rgb(255, 238, 0);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn:hover{
+      color: white;
+}
+#output{
+    /* border-style: solid; */
+    margin: 20px;
+    /* height: 300px; */
+    /* display: flex; */
+    position: relative;
+
+    
+}
+
+.note{
+    display: block;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    justify-content: center;
+    color: chocolate;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.dlbtn{
+    display: block;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    color: rgb(255, 8, 0);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 48%;
+}
+.dlbtn:hover{
+    color: rgb(255, 0, 242);
+}
+
+#imgg{
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1000;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    filter: brightness(50%);
+    background-repeat: repeat;
+}
