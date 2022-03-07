@@ -1,3 +1,3 @@
 # DNOTES.github.io
 NOTE MAKER
-https://deeepakchattwani.github.io/DNOTES.github.io/
+https://dehttps://deep-69bits.github.io/DNOTES.github.io/
